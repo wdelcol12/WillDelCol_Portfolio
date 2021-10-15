@@ -1,0 +1,342 @@
+@import url('https:://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+
+body{
+    font-family: 'nunito';
+    color:white;
+    background-color: black;
+    line-height:1.5;
+    width: 100%
+}
+
+
+header{
+    position: fixed;
+    top: 0px;
+    width: 10%;
+
+    height:19px;
+    padding: 25px 0px;
+
+    display: flex;
+    justify-content:space-between;
+    align-items: cetner;
+
+
+
+}
+
+.background_grid{
+    display:grid;
+    justify-content: center;
+    align-items:center;
+
+    grid-template-columns:100%;
+    grid-gap:0px;
+    width:100%;
+    height:auto;
+
+    z-index:-2;
+
+}
+#background--1{
+    grid-column:1;
+    grid-row:1;
+
+    z-index:-1;
+    padding-bottom: 30px;
+}
+#background--2{
+    grid-column:1;
+    grid-row: 2;
+
+    z-index: -1;
+    padding-bottom:60px;
+}
+#background--3{
+    grid-column:1;
+    grid-row:1;
+
+    z-index:-1;
+    color: black;
+
+}
+.background_stretch{
+
+    width:100%;
+    height:auto;
+}
+
+#welcome-section{
+    width: 100%;
+    height: 100vh;
+
+    position: absolute;
+    top: 10vw;
+    left:0vw;
+    z-index: 2;
+
+}
+#welcome-section h1{
+    text-align:left;
+    font-size: 3vw;
+    color: silver;
+    position: absolute;
+    top: 5vw;
+    left:7vw;
+
+}
+#welcome-section h2{
+
+    text-align:left;
+    font-size: 3vw;
+    color:white;
+
+    position:absolute;
+    top:10vw;
+    left:7vw;
+
+    border-bottom: 1px solid gray;
+    padding-bottom:10px;
+    border-bottom-width: 1px;
+
+    word-spacing:2px;
+    letter-spacing:5px;
+}
+
+#projects{
+    width:100%;
+    height:auto;
+    position:absolute;
+    top: 53vw;
+    left: 0vw;
+    z-index:2;
+
+}
+#projects h3{
+    text-align:left;
+    font-size: 3vw;
+    color: white;
+    position: absolute;
+
+    top: 2vw;
+    left: 2vw;
+
+    border-bottom: 1px solid green;
+    border-bottom-width:1px;
+
+    word-spacing:3px;
+    letter-spacing:5px;
+}
+#projects h6{
+    text-align: left;
+    font-size: 1.3vw;
+    color: silver;
+    flex-wrap: wrap;
+
+
+    position:absolute;
+
+    top:40vw;
+    left: 2vw;
+
+    word-spacing:2px;
+    letter-spacing:1px;
+    line-height: 1.8;
+    padding-bottom:5vw;
+
+}
+#projects h5{
+    text-align: left;
+    font-size: 1.3vw;
+    color: silver;
+    flex-wrap: wrap;
+
+
+    position:absolute;
+
+    top:40vw;
+    left:60vw;
+
+    word-spacing:2px;
+    letter-spacing:1px;
+    line-height: 1.8;
+    padding-bottom:5vw;
+
+}
+#projects h2{
+    text-align:left;
+    font-size: 1.2vw;
+    color: white;
+    position: absolute;
+
+    top: 38vw;
+    left: 58vw;
+
+   border-bottom: 1px solid gray;
+
+
+    word-spacing:3px;
+    letter-spacing:5px;
+}
+#About_Me{
+    width: 75%;
+    height: auto;
+    position:absolute;
+    top:98vw;
+    left: 22vw;
+    z-index:2;
+}
+#About_Me h3{
+    text-align: left;  
+    font-size: 3vw;
+    color: white;
+    
+    position: absolute;
+    top: 20vw;
+    left: 28vw;
+    
+    border-bottom: 1px solid green; 
+    border-bottom-width: 1px; 
+    
+    word-spacing: 2px;
+    letter-spacing: 5px;
+
+}
+#About_Me h6{
+    text-align: left;  
+    font-size: 1.2vw;
+    color: silver;
+    flex-wrap: wrap;
+    
+    position: absolute;
+    top: 30vw;
+    left: 15vw;
+    
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    
+    border-bottom: 1px solid dimgray; 
+    padding-bottom: 5vw;
+
+}
+#background--4{
+    grid-column: 1;
+    grid-row: 3;
+
+    z-index:-1;
+
+}
+#skills{
+
+    width:100%;
+    height:auto;
+    position:absolute;
+
+    top:46vw;
+    left:0vw;
+    z-index:2;
+}
+#projects h4{
+    text-align:left;
+    font-size: 1.2vw;
+    color: white;
+    position: absolute;
+
+    top: 38vw;
+    left: 2vw;
+
+   border-bottom: 1px solid gray;
+
+
+    word-spacing:3px;
+    letter-spacing:5px;
+
+}
+/**,
+*::before
+*::after{
+
+    box-sizing:border-box;
+
+}
+
+:root {
+--ff-primary:'Source Sans Pro', sans-serif;
+--ff-secondary:'Source Code Pro', monospace;
+
+--fw-reg: 300;
+--fw-bold: 900;
+
+--clr-bg: #fff;
+--clr-text:#303030;
+--clr-accent:#16e0bd;
+
+--fs-h1: 3rem;
+--fs-h2: 2.25rem;
+--fs-h3: 1.125rem;
+--fs-body:1rem;
+}
+
+body{
+    background-color:#f6f5f5;
+    margin:0px;
+    padding:0px;
+}
+ul{
+    list-style:none;
+
+}
+a{
+    text-decoration:none;
+}
+section{
+    width:100%;
+    height:95vh;
+
+}
+*/
+
+/*.container{
+    padding-bottom:15em;
+}
+/*h1,
+h2,
+h3{
+    line-height:1.2;
+    margin:0;
+}
+/*h1{
+    font-size: var(--fs-h1);
+    border-bottom: 1px solid black;
+    text-align:center;
+}
+h2{font-size: var(--fs-h2)}
+h3{font-size: var(--fsh3)}
+
+*/
+
+
+   .jumbotron {
+        padding-left:15em;
+        padding-right:15em;
+        padding-bottom:15em;
+        
+    }
+   /* .jumbotron h1{
+        padding-top: 7em;
+    }
+    .jumbotron p{
+        background-color: #CCE6F4;
+       
+    }
+    .jumbotron img{
+        width: 25%;
+    }
+    .carousel-inner img {
+        margin: auto;
+      }
+    .my-projects{
+        text-align:center;
+        padding-bottom:30em;
+           }*/
