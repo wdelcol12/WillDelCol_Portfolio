@@ -82,18 +82,18 @@ header{
     color: silver;
     position: absolute;
     top: 5vw;
-    left:7vw;
+    left:2vw;
 
 }
 #welcome-section h2{
 
     text-align:left;
-    font-size: 3vw;
+    font-size: 2vw;
     color:white;
 
     position:absolute;
     top:10vw;
-    left:7vw;
+    left:2vw;
 
     border-bottom: 1px solid gray;
     padding-bottom:10px;
